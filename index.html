@@ -7,7 +7,9 @@
     <title>Passion Running</title>
     <!-- ma feuille de style CSS -->
     <link rel="stylesheet" href="style.css">
-</head>·
+
+    <!-- bibliothèque d'icones FONT AWESOME pour le footer -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" </head>
 
 <body>
 
@@ -21,13 +23,19 @@
                 <li class="liNav"><a href="">Acceuil</a></li>
                 <li class="liNav"><a href="#projets">Mon parcours</a></li>
                 <li class="liNav"><a href="#contact">Mes performances</a></li>
-                        <li class="liNav"><a href="#contact">Mon journal</a></li>
-                                <li class="liNav"><a href="#contact">Mes courses & objectifs</a></li>
+                <li class="liNav"><a href="#contact">Mon journal</a></li>
+                <li class="liNav"><a href="#contact">Mes courses & objectifs</a></li>
             </ul>
         </nav>
 
         <!-- Bouton de contact -->
-        <a class="btn btn-primary" class="outfitPolice transformMajuscule">Plus loin que hier</a>
+
+        <div class="flex align-center gap-12">
+            <div class="trait" data-aos="fade-up" data-aos-duration="1500"></div>
+            <a class="transformMajuscule">Plus loin que hier</a>
+
+        </div>
+
     </header>
 
 
@@ -35,21 +43,67 @@
 
 
         <!-- section banner -->
-        <section>
+        <section class="">
+            <h1 class="transformMajuscule">Passion running</h1>
+            <p class="transformMajuscule margin-top-15">Un kilomètre après l'autre</p>
 
-        <h1>PASSION RUNNING</h1>
-        <p>Un kilomètre après l'autre</p>
+            <p class="margin-top-15">Mon parcours, mes entraînements, mes perforemances.
+            </p>
+            <p>Une seule passion : progresser</p>
 
-        <p>Mon parcours, mes entraînements, mes perforemances.
-        </p>
-        <p>Une seule passion : progresser</p>
-
-        <a href="">Découvrir mon parcours →</a>
+            <a href="">Découvrir mon parcours →</a>
         </section>
 
     </main>
 
-    <footer></footer>
+    <footer class="flex space-around ">
+        <!-- 5 grosses div -->
+        <div class="flex">
+            <i class="fa-solid fa-person-running"></i>
+            <div>
+            <p>5KM</p>
+            <p>20:41</p>
+            <p>MON RECORD</p> </div>
+        </div>
+
+        <div>
+        
+            <div class="flex">
+     <i class="fa-solid fa-person-running"></i>
+     <div>
+            <p>10KM</p>
+            <p>43:00</p>
+            <p>MON RECORD</p></div>
+        </div>
+    </div>
+
+
+        <div class="flex ">
+       
+  <i class="fa-solid fa-weight-scale"></i><div>
+            <p>100 → 85KG</p>
+            <p>MON EVOLUTION</p>
+        </div>
+        </div>
+
+        <div class="flex">
+      
+            <i class="fa-solid fa-stopwatch"></i>
+             <div> <p>VO2 MAX</p>
+            <p>48 → 53</p>
+            <p>EN 2 MOIS</p>
+        </div></div>
+
+
+        <div class="flex">
+            <i class="fa-solid fa-trophy"></i>
+            <div>
+            <p>MON OBJECTIF</p>
+            <p>SUB 20 (5KM) | SUB 40 (10KM)</p>
+            <p>ET UN JOUR... LE PODIUM</p>
+        </div>
+    </div>
+    </footer>
 </body>
 
 </html>

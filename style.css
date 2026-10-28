@@ -207,3 +207,10 @@ body {
 .transformMajuscule{
 text-transform: uppercase;
 }
+
+/* trait marron à coté de mes h3 dans section 1 et section 3*/
+.trait {
+    background-color: white;
+    height:15px;
+    width: 1px;
+}
