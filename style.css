@@ -201,6 +201,7 @@ header ul {
 
 body {
     background-image: url(assets/coureur.png);
+    background-size: cover;
     color: white;
 }
 
@@ -213,4 +214,52 @@ text-transform: uppercase;
     background-color: white;
     height:15px;
     width: 1px;
+}
+
+.policeAnton{
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+  font-size: 64px;
+}
+
+.policeAllura{
+ font-family: "Allura", cursive;
+  font-weight: 400;
+  font-size: 34px;
+}
+
+.policeAllura52px{
+ font-family: "Allura", cursive; 
+  font-size: 34px;
+}
+
+.policePermanentMarker{
+  font-family: "Permanent Marker", cursive;
+  font-weight: 400;
+  font-size: 64px;
+}
+
+.policeInter{
+      font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+ 
+
+.policeMontserrat11px{
+       font-family: "Montserrat", sans-serif;
+    font-size: 11px;
+    font-weight: 500;
+}
+
+.policeMontserrat20px{
+       font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.policeAnton72px{
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+  font-size: 72px;
 }
