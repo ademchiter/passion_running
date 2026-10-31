@@ -205,99 +205,109 @@ body {
     color: white;
 }
 
-.transformMajuscule{
-text-transform: uppercase;
+.transformMajuscule {
+    text-transform: uppercase;
 }
 
 /* trait marron à coté de mes h3 dans section 1 et section 3*/
 .trait {
     background-color: white;
-    height:15px;
+    height: 15px;
     width: 1px;
 }
 
-.policeAnton{
-  font-family: "Anton", sans-serif;
-  font-weight: 400;
-  font-size: 64px;
+.policeAnton {
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-size: 64px;
 }
 
-.policeAllura{
- font-family: "Allura", cursive;
-  font-weight: 400;
-  font-size: 34px;
+.policeAllura {
+    font-family: "Allura", cursive;
+    font-weight: 400;
+    font-size: 34px;
 }
 
-.policeAllura52px{
- font-family: "Allura", cursive; 
-  font-size: 34px;
+.policeAllura52px {
+    font-family: "Allura", cursive;
+    font-size: 34px;
 }
 
-.policePermanentMarker{
-  font-family: "Permanent Marker", cursive;
-  font-weight: 400;
-  font-size: 64px;
+.policePermanentMarker {
+    font-family: "Permanent Marker", cursive;
+    font-weight: 400;
+    font-size: 64px;
 }
 
-.policeInter{
-      font-family: "Inter", sans-serif;
+.policeInter {
+    font-family: "Inter", sans-serif;
     font-size: 16px;
     font-weight: 400;
 }
- 
 
-.policeMontserrat11px{
-       font-family: "Montserrat", sans-serif;
+
+.policeMontserrat11px {
+    font-family: "Montserrat", sans-serif;
     font-size: 11px;
     font-weight: 500;
 }
 
-.policeMontserrat20px{
-       font-family: "Montserrat", sans-serif;
+.policeMontserrat20px {
+    font-family: "Montserrat", sans-serif;
     font-size: 20px;
     font-weight: 400;
 }
 
-.policeAnton72px{
-  font-family: "Anton", sans-serif;
-  font-weight: 400;
-  font-size: 72px;
+.policeAnton72px {
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-size: 72px;
 }
 
 /* Style de base pour les liens */
 .lien-menu {
-  position: relative; /* Indispensable pour positionner la ligne */
-  text-decoration: none;
-  color: #333; /* Couleur de votre texte */
-  font-weight: 500;
-  padding: 8px 16px;
-  transition: color 0.3s ease;
+    position: relative;
+    /* Indispensable pour positionner la ligne */
+    text-decoration: none;
+    color: #333;
+    /* Couleur de votre texte */
+    font-weight: 500;
+    padding: 8px 16px;
+    transition: color 0.3s ease;
 }
 
 /* Création de la ligne de surlignage cachée par défaut */
 .lien-menu::after {
-  content: '';
-  position: absolute;
-  bottom: 0;
-  left: 50%; /* Part du centre (mettez 0 si vous voulez qu'elle parte de la gauche) */
-  transform: translateX(-50%); /* Aligne parfaitement au centre */
-  width: 0; /* Épaisseur initiale invisible */
-  height: 3px; /* Épaisseur de votre ligne de surlignage */
-  background-color: white; /* Couleur de votre surlignage (ex: bleu) */
-  transition: width 0.3s ease; /* Rend l'effet fluide et propre */
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    /* Part du centre (mettez 0 si vous voulez qu'elle parte de la gauche) */
+    transform: translateX(-50%);
+    /* Aligne parfaitement au centre */
+    width: 0;
+    /* Épaisseur initiale invisible */
+    height: 3px;
+    /* Épaisseur de votre ligne de surlignage */
+    background-color: white;
+    /* Couleur de votre surlignage (ex: bleu) */
+    transition: width 0.3s ease;
+    /* Rend l'effet fluide et propre */
 }
 
 /* Effet au survol (Hover) */
 .lien-menu:hover {
-  color: white; /* Optionnel : le texte change aussi de couleur */
+    color: white;
+    /* Optionnel : le texte change aussi de couleur */
 }
 
 .lien-menu:hover::after {
-  width: 80%; /* La ligne se déploie (ajustez à 100% si vous voulez toute la largeur) */
+    width: 80%;
+    /* La ligne se déploie (ajustez à 100% si vous voulez toute la largeur) */
 }
 
 .section-hero {
- 
+
     height: 80vh;
 
     padding-left: 40px;
@@ -308,6 +318,7 @@ text-transform: uppercase;
 /* FOOTER */
 .footer-stats {
     position: absolute;
+    /*en bas de l'écran*/
     bottom: 0;
     left: 0;
     width: 100%;
@@ -319,13 +330,12 @@ text-transform: uppercase;
 
     padding: 20px 4.5%;
 
-    /* Effet verre dépoli */
-    background: rgba(5, 8, 10, 0.68);
-    backdrop-filter: blur(12px);
-    -webkit-backdrop-filter: blur(12px);
+    /* Effet verre plus transparent */
+    background: rgba(5, 8, 10, 0.25);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
 
-    /* Bordure supérieure translucide */
-    border-top: 1px solid rgba(255, 255, 255, 0.15);
+    border-top: 1px solid rgba(255, 255, 255, 0.22);
 
     z-index: 10;
 }
@@ -376,6 +386,7 @@ text-transform: uppercase;
     margin-top: 5px;
     text-transform: uppercase;
 }
+
 .stat-icon {
     font-size: 19px;
     color: #F9A44B;
