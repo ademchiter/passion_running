@@ -205,6 +205,12 @@ body {
     color: white;
 }
 
+.body2 {
+    background-image: none;
+    background-color: white;
+    color: black;
+}
+
 .transformMajuscule {
     text-transform: uppercase;
 }
@@ -309,10 +315,11 @@ body {
 .section-hero {
 
     height: 80vh;
-
     padding-left: 40px;
+    position: relative;
+    display: flex;
+    align-items: center;
 }
-
 
 
 /* FOOTER */
@@ -433,4 +440,12 @@ body {
 
 .btn-parcours:hover i {
     transform: translateX(5px);
+}
+
+.hero2 {
+    background-image: url("assets/course_header.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
 }
