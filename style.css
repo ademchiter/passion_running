@@ -449,3 +449,11 @@ body {
     background-repeat: no-repeat;
     color: white;
 }
+
+.cadre1 {
+    background-color: #ffffff;
+    border: 1px solid #e2eaff;
+    border-radius: 16px;
+    padding: 20px 25px;
+    box-shadow: 0 3px 12px rgba(50, 80, 150, 0.10);
+}
